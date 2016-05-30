@@ -8,6 +8,7 @@
   "dependencies": {
     "react": "^15.0.2",
     "react-native": "^0.26.1",
+    "react-native-checkbox": "^1.0.8",
     "react-native-router-flux": "^3.26.1"
   }
 }

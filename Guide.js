@@ -7,6 +7,10 @@ export default class Guide extends Component {
         return (
             <View style={styles.guide}>
                 <Text style={styles.item} onPress={Actions.touchableHighlightCase}>touchableHighlightCase!</Text>
+                <Text style={styles.item} onPress={Actions.longPress}>longPressCase!</Text>
+                <Text style={styles.item} onPress={Actions.longPressImageCase}>longPressImageCase</Text>
+                <Text style={styles.item} onPress={Actions.colorChange}>colorChangeCase</Text>
+                <Text style={styles.item} onPress={Actions.formInput}>formInputCase</Text>
             </View>
         )
     }
